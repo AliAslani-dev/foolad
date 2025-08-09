@@ -12,107 +12,107 @@ export default [
   {
     path: "/dashPage",
     name: "dashPage",
-    meta: { title: "Ø¯Ø§Ø´Ø¨ÙØ±Ø¯", requiresAuth: true },
+    meta: { title: "ÃÂ¯ÃÂ§ÃÂ´ÃÂ¨ÃÂÃÂ±ÃÂ¯", requiresAuth: true },
     component: () =>
       import("../views/live-preview/pages/dashpage/dashPage.vue"),
   },
   {
     path: "/users",
     name: "users",
-    meta: { requiresAuth: true, title: "Ú©Ø§Ø±Ø¨Ø±Ø§Ù" },
+    meta: { requiresAuth: true, title: "ÃÂ©ÃÂ§ÃÂ±ÃÂ¨ÃÂ±ÃÂ§ÃÂ" },
     component: () => import("../views/live-preview/pages/users.vue"),
   },
   {
     path: "/addUser",
     name: "addUser",
-    meta: { requiresAuth: true, title: "Ú©Ø§Ø±Ø¨Ø±Ø§Ù" },
+    meta: { requiresAuth: true, title: "ÃÂ©ÃÂ§ÃÂ±ÃÂ¨ÃÂ±ÃÂ§ÃÂ" },
     component: () => import("../views/live-preview/pages/addUser.vue"),
   },
   {
     path: "/editUser/:id",
     name: "editUser",
-    meta: { requiresAuth: true, title: "Ú©Ø§Ø±Ø¨Ø±Ø§Ù" },
+    meta: { requiresAuth: true, title: "ÃÂ©ÃÂ§ÃÂ±ÃÂ¨ÃÂ±ÃÂ§ÃÂ" },
     component: () => import("../views/live-preview/pages/editUser.vue"),
   },
   {
     path: "/locations",
     name: "locations",
-    meta: { requiresAuth: true, title: "ÙÙÙØ¹ÛØª ÙØ§" },
+    meta: { requiresAuth: true, title: "ÃÂÃÂÃÂÃÂ¹ÃÂÃÂª ÃÂÃÂ§" },
     component: () => import("../views/live-preview/pages/locations.vue"),
   },
   {
     path: "/subjects",
     name: "subjects",
-    meta: { requiresAuth: true, title: "ÙÙØ¶ÙØ¹ ÙØ§" },
+    meta: { requiresAuth: true, title: "ÃÂÃÂÃÂ¶ÃÂÃÂ¹ ÃÂÃÂ§" },
     component: () => import("../views/live-preview/pages/subjects.vue"),
   },
   {
     path: "/meetings",
     name: "meetings",
-    meta: { requiresAuth: true, title: "Ø¬ÙØ³Ø§Øª" },
+    meta: { requiresAuth: true, title: "ÃÂ¬ÃÂÃÂ³ÃÂ§ÃÂª" },
     component: () => import("../views/live-preview/pages/meetings.vue"),
   },
   {
     path: "/editMeet/:id",
     name: "editMeet",
-    meta: { requiresAuth: true, title: "ÙÛØ±Ø§ÛØ´ Ø¬ÙØ³Ø§Øª" },
+    meta: { requiresAuth: true, title: "ÃÂÃÂÃÂ±ÃÂ§ÃÂÃÂ´ ÃÂ¬ÃÂÃÂ³ÃÂ§ÃÂª" },
     component: () => import("../views/live-preview/pages/editMeet.vue"),
   },
   {
     path: "/privateMeets",
     name: "privateMeets",
-    meta: { requiresAuth: true, title: "ÙÙØ§ÙØ§Øª ÙØ§Û Ø®ØµÙØµÛ" },
+    meta: { requiresAuth: true, title: "ÃÂÃÂÃÂ§ÃÂÃÂ§ÃÂª ÃÂÃÂ§ÃÂ ÃÂ®ÃÂµÃÂÃÂµÃÂ" },
     component: () => import("../views/live-preview/pages/privateMeets.vue"),
   },
   {
     path: "/editPrivateMeet/:id",
     name: "editPrivateMeet",
-    meta: { requiresAuth: true, title: "ÙÛØ±Ø§ÛØ´ ÙÙØ§ÙØ§Øª ÙØ§" },
+    meta: { requiresAuth: true, title: "ÃÂÃÂÃÂ±ÃÂ§ÃÂÃÂ´ ÃÂÃÂÃÂ§ÃÂÃÂ§ÃÂª ÃÂÃÂ§" },
     component: () => import("../views/live-preview/pages/editPrivateMeet.vue"),
   },
   {
     path: "/reports",
     name: "reports",
-    meta: { requiresAuth: true, title: "Ú¯Ø²Ø§Ø±Ø´Ø§Øª" },
+    meta: { requiresAuth: true, title: "ÃÂ¯ÃÂ²ÃÂ§ÃÂ±ÃÂ´ÃÂ§ÃÂª" },
     component: () => import("../views/live-preview/pages/reports.vue"),
   },
   {
     path: "/notes",
     name: "notes",
-    meta: { requiresAuth: true, title: "ÛØ§Ø¯ Ø¯Ø§Ø´Øª ÙØ§" },
+    meta: { requiresAuth: true, title: "ÃÂÃÂ§ÃÂ¯ ÃÂ¯ÃÂ§ÃÂ´ÃÂª ÃÂÃÂ§" },
     component: () => import("../views/live-preview/pages/notes.vue"),
   },
   {
     path: "/editMinute/:type/:id",
     name: "editMinute",
-    meta: { requiresAuth: true, title: "ÙÛØ±Ø§ÛØ´ ØµÙØ±Øª Ø¬ÙØ³Ù" },
+    meta: { requiresAuth: true, title: "ÃÂÃÂÃÂ±ÃÂ§ÃÂÃÂ´ ÃÂµÃÂÃÂ±ÃÂª ÃÂ¬ÃÂÃÂ³ÃÂ" },
     component: () => import("../views/live-preview/pages/editMinute.vue"),
   },
   {
     path: "/editProfile",
     name: "editProfile",
-    meta: { requiresAuth: true, title: "ÙÛØ±Ø§ÛØ´ ØµÙØ±Øª Ø¬ÙØ³Ù" },
+    meta: { requiresAuth: true, title: "ÃÂÃÂÃÂ±ÃÂ§ÃÂÃÂ´ ÃÂµÃÂÃÂ±ÃÂª ÃÂ¬ÃÂÃÂ³ÃÂ" },
     component: () => import("../views/live-preview/pages/editProfile.vue"),
   },
   {
     path: "/setting",
     name: "setting",
-    meta: { requiresAuth: true, title: "ØªÙØ¸ÛÙØ§Øª" },
+    meta: { requiresAuth: true, title: "ÃÂªÃÂÃÂ¸ÃÂÃÂÃÂ§ÃÂª" },
     component: () => import("../views/live-preview/pages/setting/setting.vue"),
   },
 
   {
     path: "/logs",
     name: "logs",
-    meta: { requiresAuth: true, title: "Ú©ÙØªØ±Ù ÙØ±ÙØ¯ Ù Ø®Ø±ÙØ¬" },
+    meta: { requiresAuth: true, title: "ÃÂ©ÃÂÃÂªÃÂ±ÃÂ ÃÂÃÂ±ÃÂÃÂ¯ ÃÂ ÃÂ®ÃÂ±ÃÂÃÂ¬" },
     component: () => import("../views/live-preview/pages/logs/logs.vue"),
   },
 
-  // Auth ۲
+  // Auth 2
   {
     path: "/login-v2",
     name: "login-v2",
-    meta: { title: "ÙØ±ÙØ¯" },
+    meta: { title: "ÃÂÃÂ±ÃÂÃÂ¯" },
     component: () => import("../views/live-preview/pages/auth2/login.vue"),
   },
   {
