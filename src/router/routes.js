@@ -12,107 +12,107 @@ export default [
   {
     path: "/dashPage",
     name: "dashPage",
-    meta: { title: "داشبورد", requiresAuth: true },
+    meta: { title: "Ø¯Ø§Ø´Ø¨ÙØ±Ø¯", requiresAuth: true },
     component: () =>
       import("../views/live-preview/pages/dashpage/dashPage.vue"),
   },
   {
     path: "/users",
     name: "users",
-    meta: { requiresAuth: true, title: "کاربران" },
+    meta: { requiresAuth: true, title: "Ú©Ø§Ø±Ø¨Ø±Ø§Ù" },
     component: () => import("../views/live-preview/pages/users.vue"),
   },
   {
     path: "/addUser",
     name: "addUser",
-    meta: { requiresAuth: true, title: "کاربران" },
+    meta: { requiresAuth: true, title: "Ú©Ø§Ø±Ø¨Ø±Ø§Ù" },
     component: () => import("../views/live-preview/pages/addUser.vue"),
   },
   {
     path: "/editUser/:id",
     name: "editUser",
-    meta: { requiresAuth: true, title: "کاربران" },
+    meta: { requiresAuth: true, title: "Ú©Ø§Ø±Ø¨Ø±Ø§Ù" },
     component: () => import("../views/live-preview/pages/editUser.vue"),
   },
   {
     path: "/locations",
     name: "locations",
-    meta: { requiresAuth: true, title: "موقعیت ها" },
+    meta: { requiresAuth: true, title: "ÙÙÙØ¹ÛØª ÙØ§" },
     component: () => import("../views/live-preview/pages/locations.vue"),
   },
   {
     path: "/subjects",
     name: "subjects",
-    meta: { requiresAuth: true, title: "موضوع ها" },
+    meta: { requiresAuth: true, title: "ÙÙØ¶ÙØ¹ ÙØ§" },
     component: () => import("../views/live-preview/pages/subjects.vue"),
   },
   {
     path: "/meetings",
     name: "meetings",
-    meta: { requiresAuth: true, title: "جلسات" },
+    meta: { requiresAuth: true, title: "Ø¬ÙØ³Ø§Øª" },
     component: () => import("../views/live-preview/pages/meetings.vue"),
   },
   {
     path: "/editMeet/:id",
     name: "editMeet",
-    meta: { requiresAuth: true, title: "ویرایش جلسات" },
+    meta: { requiresAuth: true, title: "ÙÛØ±Ø§ÛØ´ Ø¬ÙØ³Ø§Øª" },
     component: () => import("../views/live-preview/pages/editMeet.vue"),
   },
   {
     path: "/privateMeets",
     name: "privateMeets",
-    meta: { requiresAuth: true, title: "ملاقات های خصوصی" },
+    meta: { requiresAuth: true, title: "ÙÙØ§ÙØ§Øª ÙØ§Û Ø®ØµÙØµÛ" },
     component: () => import("../views/live-preview/pages/privateMeets.vue"),
   },
   {
     path: "/editPrivateMeet/:id",
     name: "editPrivateMeet",
-    meta: { requiresAuth: true, title: "ویرایش ملاقات ها" },
+    meta: { requiresAuth: true, title: "ÙÛØ±Ø§ÛØ´ ÙÙØ§ÙØ§Øª ÙØ§" },
     component: () => import("../views/live-preview/pages/editPrivateMeet.vue"),
   },
   {
     path: "/reports",
     name: "reports",
-    meta: { requiresAuth: true, title: "گزارشات" },
+    meta: { requiresAuth: true, title: "Ú¯Ø²Ø§Ø±Ø´Ø§Øª" },
     component: () => import("../views/live-preview/pages/reports.vue"),
   },
   {
     path: "/notes",
     name: "notes",
-    meta: { requiresAuth: true, title: "یاد داشت ها" },
+    meta: { requiresAuth: true, title: "ÛØ§Ø¯ Ø¯Ø§Ø´Øª ÙØ§" },
     component: () => import("../views/live-preview/pages/notes.vue"),
   },
   {
     path: "/editMinute/:type/:id",
     name: "editMinute",
-    meta: { requiresAuth: true, title: "ویرایش صورت جلسه" },
+    meta: { requiresAuth: true, title: "ÙÛØ±Ø§ÛØ´ ØµÙØ±Øª Ø¬ÙØ³Ù" },
     component: () => import("../views/live-preview/pages/editMinute.vue"),
   },
   {
     path: "/editProfile",
     name: "editProfile",
-    meta: { requiresAuth: true, title: "ویرایش صورت جلسه" },
+    meta: { requiresAuth: true, title: "ÙÛØ±Ø§ÛØ´ ØµÙØ±Øª Ø¬ÙØ³Ù" },
     component: () => import("../views/live-preview/pages/editProfile.vue"),
   },
   {
     path: "/setting",
     name: "setting",
-    meta: { requiresAuth: true, title: "تنظیمات" },
+    meta: { requiresAuth: true, title: "ØªÙØ¸ÛÙØ§Øª" },
     component: () => import("../views/live-preview/pages/setting/setting.vue"),
   },
 
   {
     path: "/logs",
     name: "logs",
-    meta: { requiresAuth: true, title: "کنترل ورود و خروج" },
+    meta: { requiresAuth: true, title: "Ú©ÙØªØ±Ù ÙØ±ÙØ¯ Ù Ø®Ø±ÙØ¬" },
     component: () => import("../views/live-preview/pages/logs/logs.vue"),
   },
 
-  // Auth 2
+  // Auth ۲
   {
     path: "/login-v2",
     name: "login-v2",
-    meta: { title: "ورود" },
+    meta: { title: "ÙØ±ÙØ¯" },
     component: () => import("../views/live-preview/pages/auth2/login.vue"),
   },
   {
